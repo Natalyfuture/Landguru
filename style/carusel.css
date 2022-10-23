@@ -1,0 +1,14 @@
+.bx-viewport{
+    max-width: 690px;
+    padding: 0px 49px;
+    margin-right: 0;
+}
+
+.bx-wrapper{
+    max-width: 700px;
+    margin-left: 209px;
+}
+
+.bx-clon{
+    justify-content: center;
+}
