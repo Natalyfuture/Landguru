@@ -1474,6 +1474,32 @@ path:hover{
     .secure_payment-column{
         display: block;
     }
+
+    .footer_content {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_item {
+        max-width: 290px;
+        margin-bottom: 72px;
+    }
+
+    .footer_title {
+        font-size: 30px;
+    }
+
+    .footer_li {
+        max-width: 290px;
+        margin-bottom: 8px;
+    }
+
+    .footer_link {
+        font-size: 28px;
+        line-height: 162%;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -1526,6 +1552,8 @@ path:hover{
     .pricing_item {
         width: 450px;
     }
+
+  
 }
 
 @media screen and (max-width: 480px) {
@@ -1616,32 +1644,6 @@ path:hover{
 
     .footer {
         padding: 104px 0 91px;
-    }
-
-    .footer_content {
-        max-width: 340px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer_item {
-        max-width: 290px;
-        margin-bottom: 72px;
-    }
-
-    .footer_title {
-        font-size: 30px;
-    }
-
-    .footer_li {
-        max-width: 290px;
-        margin-bottom: 8px;
-    }
-
-    .footer_link {
-        font-size: 28px;
-        line-height: 162%;
     }
 
     .login-box{
