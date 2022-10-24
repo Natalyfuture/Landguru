@@ -4,6 +4,7 @@ const portfolio = $(".carusel_list").bxSlider({
     infiniteLoop: true,
     touchEnabled: true,
     hideControlOnEnd: false,
+    fade: true,
 });
 
 $(".arrow_wright").click((e) => {

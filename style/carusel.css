@@ -2,13 +2,19 @@
     max-width: 690px;
     padding: 0px 49px;
     margin-right: 0;
+    height: 550px;
+    justify-tracks: center;
+    
 }
 
 .bx-wrapper{
     max-width: 700px;
-    margin-left: 209px;
+    margin: 0 auto;
+    transform: translate3d(-10439.6px, 0px, 0px);
+    
 }
 
-.bx-clon{
-    justify-content: center;
-}
+
+
+
+ 
