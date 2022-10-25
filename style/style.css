@@ -644,7 +644,7 @@ li:hover {
 }
 
 .carusel_content:not(:last-of-type){
-    margin-right: 360px;
+   /*  margin-right: 360px; */
 }
 
 .jackpot_title-blue{
@@ -1355,13 +1355,13 @@ path:hover{
     }
 
     .carusel_list{
-        
+        margin: 0 auto;
+        right: -76px;
     }
 
     .carusel_content{
         max-width: 750px;
         min-width: 700px;
-        margin: 0 160px;
     }
 
     .carusel_title{
@@ -1394,6 +1394,12 @@ path:hover{
     }
 
 } 
+
+@media screen and (max-width: 900px) {
+    .carusel_list{
+        right: -54px;
+    }
+}
 
 @media screen and (max-width: 800px) {
     .container{
@@ -1461,10 +1467,14 @@ path:hover{
         max-width: 750px;
     }
 
+    .carusel_list{
+        right: -95px;
+    }
+
     .carusel_content {
         max-width: 500px;
         min-width: 450px;
-        margin: 0 100px;
+       /*  margin: 0 100px; */
     }
 
     .secure_payment{
@@ -1519,6 +1529,12 @@ path:hover{
 
     .pricing_content{
         max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .carusel_list{
+        right: -44px;
     }
 }
 
@@ -1652,6 +1668,12 @@ path:hover{
     
 }
 
+@media screen and (max-width: 400px) {
+    .carusel_list{
+        right: -22px;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .container{
         max-width: 300px;
@@ -1724,6 +1746,10 @@ path:hover{
 
     .function_text {
         font-size: 19px;
+    }
+
+    .carusel_list{
+        right: 11px;
     }
 
     .carusel_content {
