@@ -292,7 +292,7 @@ li:hover {
 }
 
 .watch_link{
-    text-align: none;
+    text-decoration: none;
 }
 
 .video{
@@ -664,10 +664,6 @@ li:hover {
     border-radius: 15px;
     box-shadow: 5px 5px 10px 7px rgba(36, 72, 134, 0.3);
     box-sizing: border-box;
-}
-
-.carusel_content:not(:last-of-type){
-   /*  margin-right: 360px; */
 }
 
 .jackpot_title-blue{
