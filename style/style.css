@@ -291,6 +291,10 @@ li:hover {
     align-items: center;
 }
 
+.watch_link{
+    text-align: none;
+}
+
 .video{
     width: 26px;
     height: 26px;
