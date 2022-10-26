@@ -304,6 +304,7 @@ li:hover {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.16px;
+    text-decoration: none;
     color: #FFFFFF;
 }
 
@@ -556,7 +557,7 @@ li:hover {
 }
 
 .function{
-    background-image: url(../img/function/background.png);
+    background-image: url(../img/function/BG.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 90px 0 156px;
@@ -587,8 +588,12 @@ li:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    gap: 60px;
+    gap: 35px;
     justify-items: center;
+}
+
+.functiont_grid-item{
+    max-width: 400px;
 }
 
 .function_grid-content{
@@ -597,7 +602,21 @@ li:hover {
 }
 
 .function_img{
+    display: flex;
+    max-width: 400px;
     margin-bottom: 25px;
+}
+
+.img_number{
+    margin-right: 33px;
+}
+
+.function_arrow-one{
+    margin-bottom: 25px;
+}
+
+.function_arrow-two{
+    margin-top: 25px;
 }
 
 .function_title{
@@ -1218,6 +1237,10 @@ path:hover{
         top: 80px;
         right: 32px;
     }
+
+    .function{
+        padding: 90px 0 10px;
+    }
 }
 
 @media screen and (max-width: 1440px) {
@@ -1228,6 +1251,18 @@ path:hover{
     .mockup_img {
         max-width: 565px;
         left: 582px;
+    }
+
+    .function{
+        padding: 90px 0 100px;
+    }
+
+    .function_grid{
+        gap: 129px;
+    }
+
+    .functiont_grid-item {
+        max-width: 184px;
     }
 }
 
@@ -1249,6 +1284,16 @@ path:hover{
 
     .header_position{
         z-index: 10;
+    }
+    .function_grid{
+        gap: 50px;
+    }
+    .img_number{
+        margin-right: 10px;
+    }
+
+    .function_arrow-one, .function_arrow-two{
+        max-width: 177px;
     }
 
     .carusel_content{
@@ -1354,6 +1399,33 @@ path:hover{
         margin: 0 auto;
     }
 
+    .function_grid {
+        gap: 20px;
+    }
+
+    .functiont_grid-item{
+        max-width: 140px;
+    }
+
+    .img_number{
+        max-width: 50px;
+    }
+
+    .function_arrow-one, .function_arrow-two{
+        max-width: 120px;
+    }
+
+    .function_title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 143%;
+    }
+
+    .function_text {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
     .carusel_list{
         margin: 0 auto;
         right: -76px;
@@ -1455,8 +1527,17 @@ path:hover{
     }
 
     .function_grid{
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 57px 0px;
+    }
+
+    .functiont_grid-item{
+        max-width: 164px;
+    }
+
+    .function_arrow-one, .function_arrow-two{
+        display: none;
     }
 
     .jackpot_img {
@@ -1639,6 +1720,10 @@ path:hover{
 
     .jackpot_title-pricing{
         margin-bottom: 68px;
+    }
+
+    .function_grid{
+        gap: 57px 40px;
     }
 
     .pricing_item {
